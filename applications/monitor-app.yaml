@@ -1,11 +1,11 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: servicemonitor
+  name: service-monitor
   namespace: argocd
 spec:
   destination:
-    namespace: monitorservice
+    namespace: service-monitor
     server: https://kubernetes.default.svc
   project: default
   source:
