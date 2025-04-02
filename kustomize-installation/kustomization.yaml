@@ -5,9 +5,6 @@ bases:
   - github.com/argoproj/argo-cd/manifests/ha/cluster-install?ref=v2.1.1
 resources:
   - resources/namespace.yaml
-  - servicemonitor-argocd-metrics.yaml
-  - servicemonitor-argocd-repo-server-metrics.yaml
-  - servicemonitor-argocd-server-metrics.yaml
 patchesStrategicMerge:
   - patches/argocd-cm.yaml
   - patches/argocd-server-deployment.yaml
