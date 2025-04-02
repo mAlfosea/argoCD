@@ -4,7 +4,7 @@ metadata:
   name: prometheus-operator
 spec:
   destination:
-    namespace: monitoring
+    namespace: argocd
     server: https://kubernetes.default.svc
   project: default
   source:

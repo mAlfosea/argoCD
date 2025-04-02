@@ -4,7 +4,7 @@ metadata:
   name: servicemonitor
 spec:
   destination:
-    namespace: servicemonitor
+    namespace: argocd
     server: https://kubernetes.default.svc
   project: default
   source:
