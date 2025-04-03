@@ -5,3 +5,4 @@ metadata:
 data:
   timeout.reconciliation: 300s
   kustomize.buildOptions: --enable-helm
+  server.insecure: "true"
