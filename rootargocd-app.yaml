@@ -12,5 +12,3 @@ spec:
     path: applications
     repoURL: https://github.com/mAlfosea/argoCD.git
     targetRevision: main
-    kustomize:
-      enableHelm: true
