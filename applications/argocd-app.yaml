@@ -11,5 +11,3 @@ spec:
     path: kustomize-installation
     repoURL: https://github.com/mAlfosea/argoCD.git
     targetRevision: main
-    kustomize:
-      enableHelm: true
